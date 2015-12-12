@@ -157,7 +157,7 @@
                             <form layout="row">
                                 <md-input-container id="comment-box-container" class="some-padding-bottom" flex>
                                     <label>Add a status update</label>
-                                    <input id="comment-box" ng-model="ideasView.newUpdate" type="text" />
+                                    <input id="comment-box" ng-model="ideasView.newUpdate" type="text" auto-focus/>
                                 </md-input-container>
                                 <md-button class="md-icon-button" type="submit" aria-label="Submit" ng-disabled="ideasView.newUpdate === ''" ng-click="addNewInteraction('updates')">
                                     <i class="material-icons icon-button-adjust">&#xE876;</i>

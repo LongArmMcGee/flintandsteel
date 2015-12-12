@@ -6,7 +6,7 @@
 function DialogController($scope, $mdDialog) {
     "use strict";
     //angular.element(document.querySelector("#username")).trigger("focus");
-    document.getElementById("#username").focus();
+    // document.getElementById("#username").focus();`
 
     $scope.hide = function() {
         $mdDialog.hide();
