@@ -24,7 +24,7 @@ angular.module('flintAndSteel')
         link: function(_scope, _element) {
             _scope.$watch('_scope.updatesSelected',function(){
                 console.log("test watch");
-                if(_scope.updatesSelected || (typeof _scope.updatesSelected === 'undefined'){
+                if(_scope.updatesSelected || (typeof _scope.updatesSelected === 'undefined')){
                     _element[0].focus();
                     console.log("test if block");
                 }
