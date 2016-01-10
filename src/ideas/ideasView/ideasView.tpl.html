@@ -147,7 +147,7 @@
     <md-card-content>
         <md-tabs md-dynamic-height md-border-bottom="">
             <!-- Tab Used to show updates for the idea -->
-            <md-tab label="Updates">
+            <md-tab label="Updates" md-on-select="updatesSelected=true" md-on-deselect="updatesSelected=false">
                 <md-content class="md-padding">
                     <md-card>
                         <md-card-content ng-if="!idea.updates[0] && ideasView.isUserMemberOfTeam()">
